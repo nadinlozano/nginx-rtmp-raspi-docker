@@ -8,6 +8,6 @@ Build an image:
 Run a container:
 ```docker run -d --name nginx-rtmp-raspi -p 1935:1935 nginx-rtmp-raspi```
 
-URL to set in OBS Studio: ```rtmp://<your_host_ip>/live```. Set key on your choise, e. g. ```test```.
+URL to set in OBS Studio: ```rtmp://<your_host_ip>/live```. Set key on your choice, e. g. ```test```.
 
 To view a stream open URL in VLC player: ```rtmp://<your_host_ip>/live/<your_key>```
