@@ -3,7 +3,7 @@ Docker image with Nginx using the nginx-rtmp-module for Raspberry Pi
 
 ## Usage
 Build an image:
-``` docker build -t nginx-rtmp-raspi -f Dockerfile .```
+``` docker build -t nginx-rtmp-raspi .```
 
 Run a container:
 ```docker run -d --name nginx-rtmp-raspi -p 1935:1935 nginx-rtmp-raspi```
